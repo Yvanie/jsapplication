@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter une competence</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ajouter une competence</h1>
+        <form name="form" id="form" onsubmit="event.preventDefault()">
+            <div>
+                <label for="progress"><b>Progess</b> </label><br>
+                <input type="number" name="progress" id="progress" required >
+            </div>
+            <div>
+                <label for="title"><b>Title</b></label><br>
+                <input type=" text" name="title" id="title" required>
+            </div>
+            <div>
+                <label for="description"><b>Description</b></label><br>
+                <input type=" text" name="description" id="description" required>
+            </div><br>
+            <div class="btn">
+                <button class="btn" type="submit" >Submit</button>
+            </div>
+        </form>
+        <br>
+        <section>
+            
+        </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

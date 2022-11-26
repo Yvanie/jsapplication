@@ -1,0 +1,197 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    color: #707070;
+    font-family: arial,Arial, Helvetica, sans-serif;
+}
+a{
+    color: #707070;
+    text-decoration: none;
+}
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+}
+header .picture{
+    display: flex;
+    margin-bottom: 24px;
+}
+header .picture img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+header .picture .personal_info{
+    margin-left: 25px;
+}
+header .picture h1{
+    font-size: 3em;
+}
+header .picture .info .role{
+   background-color: #4545f4; 
+   color: #fff;
+   padding: 7px 15px;
+   border-radius: 10px;
+   margin-left: 20px;
+}
+header .bio p{
+    margin-bottom: 20px;
+}
+header .bio .cont{
+    display: flex;
+    justify-content: space-between;
+}
+header .bio a{
+    color: #4545f4;
+    text-decoration: underline;
+}
+header{
+    margin-bottom:24px ;
+}
+header hr{
+    margin-bottom: 10px;
+}
+section .skills{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+section .sub_skills{
+    border: 1px solid #707070;
+    border-radius: 7px;
+    padding:12px;
+    display: flex;
+    align-items: center;
+    width: 49%;
+    margin-bottom: 10px;
+}
+.skills .sub_skills .prog{
+    font-size: 40px;
+    margin-right: 10px;
+}
+.skills .sub_skills:hover{
+    background-color: #4545f4;
+    border: none;
+    color: #fff;
+}
+.lang{
+    display: flex;
+    margin-top: 20px;
+}
+.lang .sub_lang{
+    border: 1px solid #707070;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    padding: 7px;
+    border-radius: 7px;
+    margin-bottom: 24px;
+}
+.lang .sub_lang:hover{
+    background-color: #4545f4;
+    color: white;
+}
+.lang .sub_lang img{
+    width: 40px;
+    height: 30px;
+    margin-right: 12px;
+   
+}
+.expert{
+    display: flex;
+    margin-top: 20px;
+}
+.expert .sub_expert{
+    width: 25%;
+    padding-right: 10px;
+}
+.expert .sub_expert .timeline{
+    display: flex;
+    align-items: center;
+}
+.expert .sub_expert .timeline .line{
+    width: 100%;
+    margin-left: 7px;
+    border: none;
+    height: 2px;
+    background-color:#707070;
+}
+.expert .sub_expert .circle{
+    background-color:#707070;
+   width: 12px;
+   height: 12px;
+   display: block;
+   border-radius: 50%;
+}
+.expert .sub_expert .timeline:hover .line,
+.expert .sub_expert .timeline:hover .circle{
+    background-color: #4545f4;
+}
+.expert .sub_expert p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.form-container form{
+    margin-top: 10px;
+}
+.form-group-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.form-group-row .control input{
+    width: 300px;
+    height: 25px;
+    border-radius: 7px;
+    padding: 14px;
+}
+.form-group-full .control input{
+    width: 75%;
+    height: 25px;
+    border-radius: 7px;
+    padding: 14px;
+    margin-top: 10px;
+}
+.form-group .control-radio{
+    margin-top: 10px;
+    display: flex;
+}
+.form-group .control textarea{
+    width: 600px;
+    margin-top: 10px;
+}
+.form-group .control .feedback{
+    margin-top: 20px;
+    color: #c00505;
+}
+.form-group1 .btn{
+    margin-top: 5px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: #4545f4;
+    font-size: 20px;
+    color: #fff;
+    padding: 7px;
+}
+footer p{
+    text-align: center;
+}
+.cont a{
+    color: #4545f4;
+    text-decoration: underline;
+}
+.btn{
+    background-color: rgb(0, 0, 255);
+    color: white;
+    width: fit-content;
+    font-size: 20px;
+    border-radius: 4px solid;
+}
+h1{
+    color: rgb(0, 0, 255);
+    text-align: center;
+}
